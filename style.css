@@ -37,10 +37,271 @@
 button{
     background-color: #ffffff;
     margin-right: 110px;
-    color: rgb(44, 80, 190);
+    color: rgb(46, 78, 173);
     font-size: 22px;
     border: none;
     padding: 20px 5px;
     border-radius: 7px;
     width: 180px;
 }
+button:hover{
+    transform: scale(0.9);}
+
+/* Working on Section 1*/
+section{
+    height: 800px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.parts p::before{
+    content: " ✓ "; 
+    color: green;
+
+}
+.section-claimer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.part-1{
+    width: 700px;
+    margin: 100px 50px;
+    
+}
+.part-2{
+    width: 700px;
+    margin: 100px 50px;
+    text-align: left;
+    padding: 200px 40px
+}
+.part-2 h1{
+    width: 350px;
+    font-size: 50px;
+    font-weight: 700
+}
+.part-2 p{
+    font-weight: 400;
+    width: 458px;
+    padding: 20px 0px;
+    font-size: 18px;
+
+}
+.words{
+    word-spacing: 3px;
+    line-height: 28px;
+}
+.parts p{
+    line-height: 0;
+}
+/* planning section*/
+.pattern-1{
+    margin-top: 200px;
+    text-align: center;
+}
+.pattern-1 h1{
+    padding-bottom: 50px;
+    color: rgb(46, 78, 173);
+    font-size: 60px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+.planning {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.skills{
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+} 
+.heading{
+    color: rgb(46, 78, 173);
+}
+.skills p{
+    color: rgb(113, 112, 112);
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    color: #ffffff;
+}
+.img1{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.img2{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    
+}
+#pain{
+    margin-top: 100px;
+}
+#pain .blend{
+    mix-blend-mode: overlay;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 30px;
+    opacity: 1;
+    top: 100px;
+}
+.blend button{
+    margin-top: 30px;
+}
+.container h2{
+    width: 500px;
+}
+
+/* service*/
+.service{
+    width: 100%;
+    padding: 100px 0px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+.tittle h2{
+    color: rgb(46, 78, 173);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+h5{
+    color: rgb(46, 78, 173);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(46, 78, 173);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.card .button{
+    background-color: rgb(46, 78, 173);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30PX;
+    transition: .4s;
+
+}
+.card .button:hover{
+    background-color: white;
+    color: rgb(46, 78, 173);
+    border:2px solid rgb(46, 78, 173);
+    cursor: pointer;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(46, 78, 173);
+}
+
+/* footer */
+footer{
+    height: 400px;
+    background-color: rgb(24, 24, 24);
+    color: #ffffff;
+    padding: 100px;
+    padding-bottom: 20px;
+}
+footer .finishing{
+    display: flex;
+    width: 100%;
+    margin-left: 270px;
+    
+}
+.details{
+    width: 500px;
+    margin-right: 100px;
+    word-spacing: 3px;
+
+}
+.finishing p{
+    padding-top: 20px;
+    line-height: 26px;
+    font-size: 20px;
+}
+.details h1{
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+.subscription{
+    width: 500px;
+    margin-left: 150px;
+    
+}
+
+.social{
+    display: flex;
+    margin-left: 0px;
+}
+
+.social a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 22px 10px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.subscription p{
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.subscription form input:first-child{
+    display: inline-block;
+    width: 50%;
+    padding: 25px 130px 25px 30px;
+    border: 2px solid #a7a5a5;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: black;
+}
+.subscription button{
+    background-color: rgb(46, 78, 173);
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
